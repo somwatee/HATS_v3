@@ -1,0 +1,53 @@
+mode: "demo"
+symbol: "XAUUSD"
+timeframe: "M1"
+fetch_candles_n: 10000
+
+# Paths
+model_path: "models/xgb_hybrid_trading.json"
+historical_data_path: "data/historical.csv"
+features_data_path: "data/data_with_features.csv"
+dataset_path: "data/with_labels.csv"
+trade_log_path: "data/real_trade_log.csv"
+
+# Labeling Settings
+label_horizon: 5
+label_atr_multiplier: 0.5
+
+# XGBoost Hyperparameters
+xgb_max_depth: 4
+xgb_eta: 0.05
+xgb_subsample: 0.8
+xgb_colsample_bytree: 0.8
+
+# MT5 Connection (ปรับ path, server, login, password ให้ถูกต้อง)
+mt5:
+  terminal_path: "C:/Program Files/MetaTrader 5/terminal64.exe"
+  server: "demo.mt5tickmill.com"
+  login: 25198868
+  password: "R6^e}%_>rt&Z"
+  timeout: 5000
+
+# Telegram Alerts
+telegram:
+  bot_token: "7965521188:AAFoDFO5_SCg8Ole5LjiMiFkkJfRPoOpBB8"
+  chat_id: "1730880271"
+  alert_on:
+    - connection_error
+    - order_error
+    - system_health
+
+# Online Learning (River)
+online_learning:
+  enabled: true
+  model_path: "models/river_model.bin"
+  update_on_trade: true
+
+# Walk-forward Settings
+walkforward_splits: 5
+walk_forward:
+  window_size: 1000
+  step_size: 500
+
+# Cooldown for Live Loop
+cooldown_seconds: 60
