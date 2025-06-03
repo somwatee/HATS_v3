@@ -1,0 +1,55 @@
+=== Fold 0 ===
+              precision    recall  f1-score   support
+
+         Buy       0.00      0.00      0.00         0
+        Sell       0.00      0.00      0.00         0
+     NoTrade       1.00      1.00      1.00      1666
+
+    accuracy                           1.00      1666
+   macro avg       0.33      0.33      0.33      1666
+weighted avg       1.00      1.00      1.00      1666
+
+=== Fold 1 ===
+              precision    recall  f1-score   support
+
+         Buy       0.00      0.00      0.00         0
+        Sell       0.00      0.00      0.00         0
+     NoTrade       1.00      1.00      1.00      1666
+
+    accuracy                           1.00      1666
+   macro avg       0.33      0.33      0.33      1666
+weighted avg       1.00      1.00      1.00      1666
+
+=== Fold 2 ===
+              precision    recall  f1-score   support
+
+         Buy       0.00      0.00      0.00         0
+        Sell       0.00      0.00      0.00         0
+     NoTrade       1.00      1.00      1.00      1666
+
+    accuracy                           1.00      1666
+   macro avg       0.33      0.33      0.33      1666
+weighted avg       1.00      1.00      1.00      1666
+
+=== Fold 3 ===
+              precision    recall  f1-score   support
+
+         Buy       0.00      0.00      0.00         0
+        Sell       0.00      0.00      0.00         0
+     NoTrade       1.00      1.00      1.00      1666
+
+    accuracy                           1.00      1666
+   macro avg       0.33      0.33      0.33      1666
+weighted avg       1.00      1.00      1.00      1666
+
+=== Fold 4 ===
+              precision    recall  f1-score   support
+
+         Buy       0.00      0.00      0.00         0
+        Sell       0.00      0.00      0.00         0
+     NoTrade       1.00      1.00      1.00      1666
+
+    accuracy                           1.00      1666
+   macro avg       0.33      0.33      0.33      1666
+weighted avg       1.00      1.00      1.00      1666
+
