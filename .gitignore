@@ -3,7 +3,7 @@ venv/
 __pycache__/
 *.pyc
 
-# Data files (CSV, JSON, PNG) ที่อาจมีขนาดใหญ่
+# Data files (CSV, JSON, PNG) ที่มักมีขนาดใหญ่
 data/*.csv
 models/*.json
 models/*.png
@@ -15,3 +15,7 @@ models/*.csv
 # Logs
 logs/
 *.log
+
+# IDE / Editor files
+.vscode/
+.idea/
