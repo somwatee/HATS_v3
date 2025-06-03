@@ -1,0 +1,17 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Data files (CSV, JSON, PNG) ที่อาจมีขนาดใหญ่
+data/*.csv
+models/*.json
+models/*.png
+models/*.csv
+
+# Environment variables / credentials
+.env
+
+# Logs
+logs/
+*.log
