@@ -22,7 +22,7 @@ xgb_colsample_bytree: 0.8
 
 # MT5 Connection (ปรับ path, server, login, password ให้ถูกต้อง)
 mt5:
-  terminal_path: "C:/Program Files/MetaTrader 5/terminal64.exe"
+  terminal_path: "C:/Program Files/Tickmill MT5 Terminal/terminal64.exe"
   server: "demo.mt5tickmill.com"
   login: 25198868
   password: "R6^e}%_>rt&Z"
